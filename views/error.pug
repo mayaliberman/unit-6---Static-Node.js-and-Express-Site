@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Oh...No... 
+        h2 You got to the Wrong page!
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          
+        h5=  `What you looked for is ${error.message} - Status: ${error.status}`
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+         p Please press on the "back" button at the top of this page
+         
+            

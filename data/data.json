@@ -1,0 +1,68 @@
+{
+    "data": {
+        "title": "Static Node.js and Express Site",
+        "name": "Maya Liberman",
+        "projects": [
+            {
+                "id": "1",
+                "project_name": "Random Quotes",
+                "description": "An app to prractice basic JavaScript skills that displays random famous quotes",
+                "technologies": ["Javascript", "CSS", "HTML"],
+                "live_link": "https://mayaliberman.github.io/unit-1-_-A-Random-Quote-Generator/",
+                "github_link": "https://github.com/mayaliberman/unit-1-_-A-Random-Quote-Generator",
+                "img_url": [
+                    "static//img/project_1_randomquote_thumbnail.jpg",
+                    "static/img/project_1_randomquote_landscape.jpg"
+                ]
+            },
+            {
+                "id": "2",
+                "project_name": "List Pagination and Filtering",
+                "description": "A web development technique known as pagination to enhance the usability of a web page",
+                "technologies": ["Javascript", "DOM", "CSS", "HTML"],
+                "live_link": "https://mayaliberman.github.io/list-pagination-and-filtering-v1/",
+                "github_link": "https://github.com/mayaliberman/list-pagination-and-filtering-v1",
+                "img_url": [
+                    "static/img/project_2_listpagination_thumbnail.jpg",
+                    "static/img/project_2_listpagination_landscape.jpg"
+                ]
+            },
+            {
+                "id": "3",
+                "project_name": "Interactive Form",
+                "description": "Creating a dynamic interactive form in JavaScript",
+                "technologies": ["Javascript", "DOM", "JQuery", "CSS", "HTML"],
+                "live_link": "https://mayaliberman.github.io/interactive-form-v1/",
+                "github_link": "https://github.com/mayaliberman/interactive-form-v1",
+                "img_url": [
+                    "static/img/project_3_interactiveform_thumbnail.jpg",
+                    "static/img/project_3_interactiveform_landscape.jpg"
+                ]
+            },
+            {
+                "id": "4",
+                "project_name": "OOP Game Show App",
+                "description": "Creating a browser-based, word guessing game - Phrase Hunter.",
+                "technologies": ["Javascript", "DOM", "JQuery", "CSS", "HTML"],
+                "live_link": "https://mayaliberman.github.io/phrase-hunter/",
+                "github_link": "https://github.com/mayaliberman/phrase-hunter",
+                "img_url": [
+                    "static/img/project_4_phrasehunter_thumbnail.jpg",
+                    "static/img/project_4_phrasehunter_landscape.jpg"
+                ]
+            },
+            {
+                "id": "5",
+                "project_name": "Public API Requests",
+                "description": "An app for a fictional company with employees cards",
+                "technologies": ["Javascript", "AJAX", "CSS", "HTML"],
+                "live_link": "https://mayaliberman.github.io/unit-5-public-api-requests/",
+                "github_link": "https://github.com/mayaliberman/unit-5-public-api-requests",
+                "img_url": [
+                    "static/img/project_5_thumbnail.jpg",
+                    "static/img/project_5_landscape.jpg"
+                ]
+            }
+        ]
+    }
+}
