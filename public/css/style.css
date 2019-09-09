@@ -1,52 +1,70 @@
-
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+body {
+  animation: pulse 3s ;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
+@keyframes pulse {
+  0% {
+    background-color: rgb(241, 216, 245);
   }
-
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
+  100% {
+    background-color: #ebedee;
   }
+}
 
-  p{
-    font-size: 15px;
-    color: #666;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #200f21;
+}
 
-.round{
+h5 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2.5px;
+  line-height: 2.5em;
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  color: #61045f;
+  font-weight: bold;
+  border-bottom: 3px solid #666;
+}
+
+p {
+  font-size: 17px;
+  color: #5a3d5c;
+}
+
+.round {
   border-radius: 5px;
 }
 
-.text-light{
+.text-light {
   color: #666;
 }
 
-.button{
-  background-color: #333;
+.button {
+  background-image: linear-gradient(to right, #aa076b 0%, #61045f 100%);
+  border-radius: 5px;
 }
 
-.button:hover{
-  background-color: #111;
+a {
+  color: #f638dc;
 }
 
-a{
-  color: #333;
+a:hover {
+  color: #f638dc;
 }
 
-a:hover{
-  color: #111;
-}
-
-.image{
+.image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -56,95 +74,103 @@ a:hover{
   line-height: 0;
 }
 
-.portfolio-me{
+.portfolio-me {
   padding: 20px;
-  background: #121213;
+  background: rgb(68, 2, 67);
   color: #fff;
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #999;
-  }
+.portfolio-me p {
+  font-size: 14px;
+  color: #eee;
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a {
+  font-weight: 600;
+  color: #eee;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover {
+  color: #999;
+}
 
-.portfolio-breadcrumb{
+.portfolio-breadcrumb {
   margin: 0;
-  padding: 20px;
+  padding: 13px;
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
+.portfolio-breadcrumb a {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
 
-.portfolio-intro{
+}
+
+.portfolio-intro {
   margin: 0;
   padding: 40px 50px 30px;
 }
 
-.portfolio-intro p{
+.portfolio-intro p {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
 
-.portfolio-index{
+.portfolio-index .thumbnail {
   margin: 0;
-  padding: 10px 50px;
+  padding: 0;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index a {
+  color: rgb(68, 2, 67);
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.portfolio-index .cell {
+  margin-bottom: 15px;
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index .cell h5 {
+  letter-spacing: 1px;
+  color: rgb(68, 2, 67);
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
-
-.portfolio-meta{
+.portfolio-meta {
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button {
+  margin-bottom: 5px;
+}
 
-.portfolio-project p{
+.portfolio-project p {
   border: none;
 }
 
-.portfolio-project li{
-  font-size: 13px;
+.portfolio-project li {
+  font-size: 14px;
   color: #444;
 }
 
-.portfolio-bio{
-    line-height: 25px;
+.portfolio-bio {
+  line-height: 25px;
 }
+
+.title-bar {
+  background-color: rgb(68, 2, 67);
+}
+
+#my-name {
+  color: #eaeaea;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+

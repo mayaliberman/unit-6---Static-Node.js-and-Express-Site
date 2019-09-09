@@ -24,11 +24,11 @@ app.get('/projects/:id', (req,res) => {
     const { id } = req.params;
     const projectTitle = projects[id-1].project_name
     const projectDescription = projects[id-1].description
-    const projectImg = projects[id-1].img_url[1];
+    const projImgs = projects[id-1].img_proj;
     const liveLink = projects[id-1].live_link;
     const githubLink = projects[id-1].github_link;
     const technologies = projects[id-1].technologies;
-    const projectData = {id, projectTitle, projectDescription,  liveLink, githubLink, technologies, projectImg}
+    const projectData = {id, projectTitle, projImgs, projectDescription,  liveLink, githubLink, technologies, projects}
     res.render(`project`, projectData)
     
 })
@@ -45,6 +45,6 @@ app.use((req, res, next) => {
    res.render('error'); 
   })
 
-app.listen(3000, () => {
-  console.log('The application is running on localhost 3000');
+app.listen(8000, () => {
+  console.log('The application is running on localhost 8000');
 });

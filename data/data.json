@@ -10,9 +10,11 @@
                 "technologies": ["Javascript", "CSS", "HTML"],
                 "live_link": "https://mayaliberman.github.io/unit-1-_-A-Random-Quote-Generator/",
                 "github_link": "https://github.com/mayaliberman/unit-1-_-A-Random-Quote-Generator",
-                "img_url": [
-                    "static//img/project_1_randomquote_thumbnail.jpg",
-                    "static/img/project_1_randomquote_landscape.jpg"
+                "img_url": "../static/img/randomquote_550x550.png",
+                "img_proj": [
+                    "../static/img/randomquote_1200x550.png", 
+                    "../static/img/randomquote2_1200x550.png", 
+                    "../static/img/randomquote3_1200x550.png"
                 ]
             },
             {
@@ -22,10 +24,12 @@
                 "technologies": ["Javascript", "DOM", "CSS", "HTML"],
                 "live_link": "https://mayaliberman.github.io/list-pagination-and-filtering-v1/",
                 "github_link": "https://github.com/mayaliberman/list-pagination-and-filtering-v1",
-                "img_url": [
-                    "static/img/project_2_listpagination_thumbnail.jpg",
-                    "static/img/project_2_listpagination_landscape.jpg"
+                "img_url": "../static/img/studentlist_550x550.png",
+                "img_proj": [
+                    "../static/img/studentlist_1200x550.png" 
                 ]
+                    
+               
             },
             {
                 "id": "3",
@@ -34,9 +38,10 @@
                 "technologies": ["Javascript", "DOM", "JQuery", "CSS", "HTML"],
                 "live_link": "https://mayaliberman.github.io/interactive-form-v1/",
                 "github_link": "https://github.com/mayaliberman/interactive-form-v1",
-                "img_url": [
-                    "static/img/project_3_interactiveform_thumbnail.jpg",
-                    "static/img/project_3_interactiveform_landscape.jpg"
+                "img_url":"../static/img/fullstackconf_550x550.jpg",
+                "img_proj": [
+                    "../static/img/fullstackconf_1200x550.png", 
+                    "../static/img/fullstackconf2_1200x550.png" 
                 ]
             },
             {
@@ -46,9 +51,14 @@
                 "technologies": ["Javascript", "DOM", "JQuery", "CSS", "HTML"],
                 "live_link": "https://mayaliberman.github.io/phrase-hunter/",
                 "github_link": "https://github.com/mayaliberman/phrase-hunter",
-                "img_url": [
-                    "static/img/project_4_phrasehunter_thumbnail.jpg",
-                    "static/img/project_4_phrasehunter_landscape.jpg"
+                "img_url":"../static/img/phrasehunter_550x550.png",
+                "img_proj": [
+                    "../static/img/phrasehunter_1200x550 copy.png",
+                    "../static/img/phrasehunter2_1200x550.png",
+                    "../static/img/phrasehunter3_1200x550.png",
+                    "../static/img/phrasehunter4_1200x550.png",
+                    "../static/img/phrasehunter5_1200x550.png",
+                    "../static/img/phrasehunter6_1200x550.png"     
                 ]
             },
             {
@@ -58,10 +68,11 @@
                 "technologies": ["Javascript", "AJAX", "CSS", "HTML"],
                 "live_link": "https://mayaliberman.github.io/unit-5-public-api-requests/",
                 "github_link": "https://github.com/mayaliberman/unit-5-public-api-requests",
-                "img_url": [
-                    "static/img/project_5_thumbnail.jpg",
-                    "static/img/project_5_landscape.jpg"
-                ]
+                "img_url":"../static/img/awesomestartup_550x550.png",
+                "img_proj": [
+                    "../static/img/awesomestartup_1200x550.png", 
+                    "../static/img/awesomestartup2_1200x550.png" 
+                ]  
             }
         ]
     }
