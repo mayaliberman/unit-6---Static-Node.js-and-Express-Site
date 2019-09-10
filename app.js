@@ -41,8 +41,12 @@ app.use((req, res, next) => {
   
   app.use((err, req, res, next) => {
     res.locals.error = err
-    res.status(err.status);
-   res.render('error'); 
+    //Refernce to the solution: https://teamtreehouse.com/community/rangeerror-invalid-status-code-undefined-when-linking-to-another-page
+    if(err.status >= 100 && err.status < 600) {
+      res.status(err.status);
+    } else {
+      res.render('error'); 
+    }
   })
 
 app.listen(8080, () => {
