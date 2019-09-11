@@ -6,4 +6,6 @@ CSS changes:
 4. Changes of the button design - rows 54-58
 5. Changes of anchore tags - rows 59-66
 6. Background color changes - rows 77-82 
+
+Image design credit to Romi Brayer
  
