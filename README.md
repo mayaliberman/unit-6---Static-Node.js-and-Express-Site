@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # techdegree-project-6
 ## Static Node.js and Express Site
 This project is about a portfolio site to show the projects. The project has a landing page that shows all projects, about page that has contact information, and a page for every project which gives a little description about the project. There is also a json file which contains the json data.
